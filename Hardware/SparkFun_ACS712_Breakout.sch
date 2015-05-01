@@ -19241,6 +19241,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="170.18" y="11.43" size="2.54" layer="94">Pete Dokter</text>
 <text x="148.59" y="6.858" size="2.54" layer="94">Revised by:Patrick Alberts</text>
 <text x="236.982" y="7.366" size="2.54" layer="94">V12</text>
+<text x="147.828" y="115.824" size="1.905" layer="97" font="vector" ratio="10">5VDC</text>
 </plain>
 <instances>
 <instance part="JP7" gate="G$1" x="124.46" y="101.6"/>
