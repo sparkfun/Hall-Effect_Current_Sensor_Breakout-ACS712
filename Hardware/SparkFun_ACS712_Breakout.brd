@@ -162,17 +162,16 @@
 <text x="7.4676" y="2.8956" size="1.016" layer="21" font="vector" ratio="15">ACS712 </text>
 <text x="6.731" y="1.4986" size="1.016" layer="21" font="vector" ratio="15">Breakout</text>
 <text x="21.082" y="0.5842" size="1.016" layer="16" font="vector" ratio="15" rot="MR0">V12</text>
-<dimension x1="-3.81" y1="0" x2="-3.81" y2="15.24" x3="-6.35" y3="7.62" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="-2.54" y1="19.05" x2="21.59" y2="19.05" x3="9.525" y3="20.32" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<text x="-2.54" y="16.51" size="1.27" layer="47" font="vector" ratio="15">All units are in inches</text>
-<text x="8.3566" y="-12.7508" size="1.778" layer="51" font="vector">Pete Dokter</text>
-<text x="-10.16" y="-15.5194" size="1.778" layer="51" font="vector">Revised by: Patrick Alberts</text>
-<text x="16.5354" y="11.8872" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">VCC</text>
+<dimension x1="-3.81" y1="0" x2="-3.81" y2="15.24" x3="-6.35" y3="7.62" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="-2.54" y1="19.05" x2="21.59" y2="19.05" x3="9.525" y3="20.32" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
+<text x="7.0866" y="-10.2108" size="1.778" layer="51" font="vector">Pete Dokter</text>
+<text x="-11.43" y="-12.9794" size="1.778" layer="51" font="vector">Revised by: Patrick Alberts</text>
+<text x="16.49221875" y="11.877040625" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">VCC</text>
 <text x="18.923" y="9.271" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">VOUT</text>
-<text x="15.748" y="9.271" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">VOUT</text>
-<text x="18.9484" y="6.731" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">FILT</text>
-<text x="15.9766" y="6.731" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">FILT</text>
-<text x="16.4338" y="4.191" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">GND</text>
+<text x="15.7607" y="9.260840625" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">VOUT</text>
+<text x="16.0426375" y="6.733540625" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">FILT</text>
+<text x="16.46428125" y="4.193540625" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">GND</text>
+<text x="4.318" y="0.381" size="0.8128" layer="21" font="vector" ratio="15">Max Current 2.1kV </text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -1594,9 +1593,9 @@ design rules under a new name.</description>
 <element name="U$3" library="SparkFun" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="17.3482" y="13.208" rot="MR0"/>
 <element name="JP4" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="20.32" y="13.97"/>
 <element name="JP5" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="-1.651" y="1.016"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="" x="-21.61245625" y="-12.7">
-<attribute name="VERSION" value="v01" x="-21.61245625" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="DESIGNER" value="NAME" x="-21.61245625" y="-12.7" size="1.778" layer="27" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="" x="-22.88245625" y="-10.16">
+<attribute name="VERSION" value="v01" x="-22.88245625" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="DESIGNER" value="NAME" x="-22.88245625" y="-10.16" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP6" library="SparkFun-Connectors" package="1X02_NO_SILK" value="" x="5.207" y="6.35" rot="R90"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.3" value="SFE_LOGO_FLAME.3_INCH" x="12.7762" y="3.556" rot="MR0"/>
@@ -1672,7 +1671,7 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="JP7" pad="5"/>
 <contactref element="C1" pad="2"/>
-<via x="15.24" y="1.27" extent="1-16" drill="0.508"/>
+<via x="15.494" y="2.413" extent="1-16" drill="0.508"/>
 <contactref element="JP3" pad="4"/>
 </signal>
 </signals>
