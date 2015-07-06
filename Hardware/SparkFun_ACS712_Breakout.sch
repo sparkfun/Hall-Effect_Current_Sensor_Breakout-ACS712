@@ -19463,6 +19463,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="236.982" y="7.366" size="2.54" layer="94">V12</text>
 <text x="147.828" y="115.824" size="1.905" layer="97" font="vector" ratio="10">5VDC</text>
 <text x="175.768" y="6.858" size="2.54" layer="94">P. Alberts, Toni Klopfenstein</text>
+<text x="109.22" y="127" size="1.778" layer="97">Max Current Sensing: 5A</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="124.46" y="101.6"/>
