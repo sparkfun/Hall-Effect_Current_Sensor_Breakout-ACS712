@@ -19462,7 +19462,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="170.18" y="11.43" size="2.54" layer="94">Pete Dokter</text>
 <text x="236.982" y="7.366" size="2.54" layer="94">V12</text>
 <text x="147.828" y="115.824" size="1.905" layer="97" font="vector" ratio="10">5VDC</text>
-<text x="175.768" y="6.858" size="2.54" layer="94">P. Alberts, Toni Klopfenstein</text>
+<text x="173.99" y="6.604" size="2.54" layer="94">P. Alberts, Toni Klopfenstein</text>
 <text x="109.22" y="127" size="1.778" layer="97">Max Current Sensing: 5A</text>
 </plain>
 <instances>
@@ -19487,7 +19487,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="IP+" class="0">
 <segment>
 <wire x1="93.98" y1="116.84" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="116.84" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
@@ -19503,7 +19503,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="104.14" y="104.14"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="IP-" class="0">
 <segment>
 <wire x1="109.22" y1="101.6" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="101.6" x2="104.14" y2="99.06" width="0.1524" layer="91"/>
