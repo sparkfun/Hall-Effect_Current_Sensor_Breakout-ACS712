@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -169,7 +169,7 @@
 <text x="23.6728" y="0.4826" size="1.016" layer="16" font="vector" ratio="15" rot="MR0">v01</text>
 <dimension x1="-1.27" y1="0" x2="-1.27" y2="15.24" x3="-3.81" y3="7.62" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
 <dimension x1="0" y1="16.51" x2="24.13" y2="16.51" x3="12.065" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
-<text x="13.4366" y="-11.4808" size="1.778" layer="51" font="vector">Pete Dokter</text>
+<text x="13.9446" y="-11.4808" size="1.778" layer="51" font="vector">Pete Dokter</text>
 <text x="19.03221875" y="11.877040625" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">VCC</text>
 <text x="21.463" y="9.271" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">VOUT</text>
 <text x="18.3007" y="9.260840625" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">VOUT</text>
@@ -1757,16 +1757,16 @@ design rules under a new name.</description>
 </signal>
 <signal name="GND" class="3">
 <polygon width="0.3048" layer="16" isolate="0.3048">
-<vertex x="12.2174" y="0"/>
+<vertex x="12.7254" y="0"/>
 <vertex x="24.13" y="0"/>
 <vertex x="24.13" y="15.24"/>
-<vertex x="12.2174" y="15.24"/>
+<vertex x="12.7254" y="15.24"/>
 </polygon>
 <polygon width="0.3048" layer="1" isolate="0.3048">
-<vertex x="12.2174" y="0"/>
+<vertex x="12.7254" y="0"/>
 <vertex x="24.13" y="0"/>
 <vertex x="24.13" y="15.24"/>
-<vertex x="12.2174" y="15.24"/>
+<vertex x="12.7254" y="15.24"/>
 </polygon>
 <contactref element="C1" pad="2"/>
 <contactref element="JP3" pad="4"/>
@@ -1776,9 +1776,9 @@ design rules under a new name.</description>
 <via x="20.32" y="12.7" extent="1-16" drill="0.508"/>
 <via x="19.05" y="2.54" extent="1-16" drill="0.508"/>
 <via x="20.32" y="2.54" extent="1-16" drill="0.508"/>
-<via x="13.0175" y="9.652" extent="1-16" drill="0.508"/>
-<via x="13.0175" y="5.588" extent="1-16" drill="0.508"/>
-<via x="13.0175" y="7.62" extent="1-16" drill="0.508"/>
+<via x="13.2715" y="9.652" extent="1-16" drill="0.508"/>
+<via x="13.2715" y="5.588" extent="1-16" drill="0.508"/>
+<via x="13.2715" y="7.62" extent="1-16" drill="0.508"/>
 <via x="19.05" y="12.7" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="VCC" class="3">
