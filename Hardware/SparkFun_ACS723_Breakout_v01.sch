@@ -22177,35 +22177,38 @@ Thier purpose is to provide clearance to any 4-40 screw heads that are holding t
 <text x="170.18" y="11.43" size="2.54" layer="94">Pete Dokter</text>
 <text x="236.982" y="7.366" size="2.54" layer="94">V01</text>
 <text x="175.26" y="6.604" size="2.54" layer="94">Eric Orosel</text>
-<text x="90.17" y="73.66" size="1.778" layer="97">Max Current Sensing: 5A</text>
-<text x="90.17" y="76.2" size="1.778" layer="97">VCC: 4.5V to 5.5V</text>
-<text x="90.17" y="71.12" size="1.778" layer="97">Chip: ACS723LLCTR-05AB-T2</text>
+<text x="54.61" y="78.74" size="1.778" layer="97">Max Current Sensing: 5A</text>
+<text x="54.61" y="81.28" size="1.778" layer="97">VCC: 4.5V to 5.5V</text>
+<text x="54.61" y="76.2" size="1.778" layer="97">Chip: ACS723LLCTR-05AB-T2</text>
+<text x="189.23" y="91.44" size="1.778" layer="97">Bandwidth Select:</text>
+<text x="189.23" y="88.9" size="1.778" layer="97">1-20kHz</text>
+<text x="189.23" y="86.36" size="1.778" layer="97">0-80kHz</text>
 </plain>
 <instances>
-<instance part="JP1" gate="G$1" x="71.12" y="116.84"/>
-<instance part="JP2" gate="G$1" x="71.12" y="88.9"/>
-<instance part="JP6" gate="G$1" x="71.12" y="101.6"/>
-<instance part="SUPPLY1" gate="G$1" x="129.54" y="109.22"/>
-<instance part="GND1" gate="1" x="123.19" y="81.28"/>
+<instance part="JP1" gate="G$1" x="35.56" y="121.92"/>
+<instance part="JP2" gate="G$1" x="35.56" y="93.98"/>
+<instance part="JP6" gate="G$1" x="35.56" y="106.68"/>
+<instance part="SUPPLY1" gate="G$1" x="93.98" y="114.3"/>
+<instance part="GND1" gate="1" x="87.63" y="86.36"/>
 <instance part="U$1" gate="G$1" x="149.098" y="6.858"/>
-<instance part="U1" gate="G$1" x="106.68" y="101.6"/>
-<instance part="C1" gate="G$1" x="138.43" y="88.9"/>
-<instance part="GND2" gate="1" x="138.43" y="81.28"/>
+<instance part="U1" gate="G$1" x="71.12" y="106.68"/>
+<instance part="C1" gate="G$1" x="102.87" y="93.98"/>
+<instance part="GND2" gate="1" x="102.87" y="86.36"/>
 <instance part="FD2" gate="G$1" x="246.38" y="30.48"/>
 <instance part="FD3" gate="G$1" x="241.3" y="30.48"/>
 <instance part="FD4" gate="G$1" x="241.3" y="25.4"/>
 <instance part="FD5" gate="G$1" x="246.38" y="25.4"/>
-<instance part="JP4" gate="G$1" x="166.37" y="91.44" smashed="yes" rot="R180">
-<attribute name="NAME" x="163.83" y="91.059" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="JP4" gate="G$1" x="196.85" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="194.31" y="111.379" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="GND4" gate="1" x="166.37" y="81.28"/>
-<instance part="R1" gate="G$1" x="166.37" y="104.14" rot="R90"/>
-<instance part="SUPPLY2" gate="G$1" x="166.37" y="111.76"/>
-<instance part="C2" gate="G$1" x="132.08" y="88.9"/>
-<instance part="GND3" gate="1" x="132.08" y="81.28"/>
+<instance part="GND4" gate="1" x="196.85" y="101.6"/>
+<instance part="R1" gate="G$1" x="196.85" y="124.46" rot="R90"/>
+<instance part="SUPPLY2" gate="G$1" x="196.85" y="132.08"/>
+<instance part="C2" gate="G$1" x="96.52" y="93.98"/>
+<instance part="GND3" gate="1" x="96.52" y="86.36"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
-<instance part="J1" gate="J$1" x="149.86" y="104.14" rot="R180"/>
+<instance part="J1" gate="J$1" x="114.3" y="109.22" rot="R180"/>
 <instance part="JP3" gate="G$1" x="236.22" y="25.4"/>
 <instance part="LOGO1" gate="G$1" x="149.86" y="38.1"/>
 <instance part="LOGO3" gate="G$1" x="193.04" y="35.56"/>
@@ -22216,91 +22219,91 @@ Thier purpose is to provide clearance to any 4-40 screw heads that are holding t
 <nets>
 <net name="IP+" class="0">
 <segment>
-<wire x1="78.74" y1="116.84" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="116.84" x2="88.9" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="106.68" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="104.14" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="104.14" x2="88.9" y2="106.68" width="0.1524" layer="91"/>
-<junction x="88.9" y="106.68"/>
+<wire x1="43.18" y1="121.92" x2="53.34" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="121.92" x2="53.34" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="109.22" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="109.22" x2="53.34" y2="111.76" width="0.1524" layer="91"/>
+<junction x="53.34" y="111.76"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <pinref part="JP6" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="104.14" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
-<junction x="88.9" y="104.14"/>
+<wire x1="43.18" y1="109.22" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
+<junction x="53.34" y="109.22"/>
 <pinref part="U1" gate="G$1" pin="IP+@1"/>
 <pinref part="U1" gate="G$1" pin="IP+@2"/>
 </segment>
 </net>
 <net name="IP-" class="0">
 <segment>
-<wire x1="93.98" y1="101.6" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="101.6" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="99.06" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="88.9" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
-<junction x="88.9" y="99.06"/>
+<wire x1="58.42" y1="106.68" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="106.68" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="104.14" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="93.98" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="104.14" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
+<junction x="53.34" y="104.14"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <pinref part="JP6" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="101.6" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
-<junction x="88.9" y="101.6"/>
+<wire x1="43.18" y1="106.68" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
+<junction x="53.34" y="106.68"/>
 <pinref part="U1" gate="G$1" pin="IP-@2"/>
 <pinref part="U1" gate="G$1" pin="IP-@1"/>
 </segment>
 </net>
 <net name="VCC" class="3">
 <segment>
-<wire x1="129.54" y1="106.68" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="111.76" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="138.43" y1="93.98" x2="138.43" y2="106.68" width="0.1524" layer="91"/>
-<junction x="129.54" y="106.68"/>
+<wire x1="102.87" y1="99.06" x2="102.87" y2="111.76" width="0.1524" layer="91"/>
+<junction x="93.98" y="111.76"/>
 <pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="138.43" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="106.68" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
-<junction x="138.43" y="106.68"/>
-<wire x1="129.54" y1="106.68" x2="138.43" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="111.76" x2="106.68" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
+<junction x="102.87" y="111.76"/>
+<wire x1="93.98" y1="111.76" x2="102.87" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="166.37" y1="109.22" x2="166.37" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="129.54" x2="196.85" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="GND" class="3">
 <segment>
-<wire x1="123.19" y1="99.06" x2="123.19" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="104.14" x2="87.63" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="123.19" y1="99.06" x2="135.89" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="104.14" x2="100.33" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="123.19" y1="99.06" x2="119.38" y2="99.06" width="0.1524" layer="91"/>
-<junction x="123.19" y="99.06"/>
-<wire x1="135.89" y1="99.06" x2="135.89" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
+<junction x="87.63" y="104.14"/>
+<wire x1="100.33" y1="104.14" x2="100.33" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J$1" pin="3"/>
-<wire x1="135.89" y1="101.6" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="100.33" y1="106.68" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="138.43" y1="86.36" x2="138.43" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="91.44" x2="102.87" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="1"/>
-<wire x1="166.37" y1="86.36" x2="166.37" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="106.68" x2="196.85" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="86.36" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="91.44" x2="96.52" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$1" class="3">
 <segment>
 <pinref part="U1" gate="G$1" pin="VIOUT"/>
-<wire x1="119.38" y1="104.14" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="104.14" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="104.14" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
-<junction x="132.08" y="104.14"/>
+<wire x1="83.82" y1="109.22" x2="96.52" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="109.22" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
+<junction x="96.52" y="109.22"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="J1" gate="J$1" pin="2"/>
 </segment>
@@ -22308,19 +22311,19 @@ Thier purpose is to provide clearance to any 4-40 screw heads that are holding t
 <net name="BW_SEL" class="3">
 <segment>
 <pinref part="U1" gate="G$1" pin="BW_SEL"/>
-<wire x1="119.38" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
-<label x="121.92" y="101.6" size="1.27" layer="95" xref="yes"/>
+<wire x1="83.82" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
+<label x="86.36" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="2"/>
-<wire x1="171.45" y1="91.44" x2="173.99" y2="91.44" width="0.1524" layer="91"/>
-<label x="173.99" y="91.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="201.93" y1="111.76" x2="204.47" y2="111.76" width="0.1524" layer="91"/>
+<label x="204.47" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="3">
 <segment>
 <pinref part="JP4" gate="G$1" pin="3"/>
-<wire x1="166.37" y1="96.52" x2="166.37" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="116.84" x2="196.85" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
