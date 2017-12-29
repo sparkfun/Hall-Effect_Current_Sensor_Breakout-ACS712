@@ -160,16 +160,16 @@
 <wire x1="0" y1="15.24" x2="24.13" y2="15.24" width="0.2032" layer="20"/>
 <wire x1="24.13" y1="15.24" x2="24.13" y2="0" width="0.2032" layer="20"/>
 <wire x1="24.13" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
-<text x="21.463" y="11.811" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">VCC</text>
-<text x="21.463" y="6.731" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">GND</text>
+<text x="21.463" y="11.811" size="1.016" layer="21" font="vector" ratio="15" rot="R180">VCC</text>
+<text x="21.463" y="6.731" size="1.016" layer="21" font="vector" ratio="15" rot="R180">GND</text>
 <text x="9.3853" y="1.7018" size="1.27" layer="21" font="vector" ratio="15">ACS723</text>
 <text x="21.5773" y="13.6271" size="0.8128" layer="16" font="vector" ratio="15" rot="MR0">v01</text>
 <dimension x1="0" y1="19.05" x2="24.13" y2="19.05" x3="12.065" y3="20.32" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
 <text x="13.9446" y="-11.4808" size="1.778" layer="51" font="vector">Pete Dokter</text>
-<text x="19.03221875" y="11.813540625" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">VCC</text>
-<text x="21.463" y="9.271" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">VOUT</text>
-<text x="18.3007" y="9.260840625" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">VOUT</text>
-<text x="19.06778125" y="6.733540625" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">GND</text>
+<text x="18.6182" y="11.940540625" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">VCC</text>
+<text x="21.463" y="9.271" size="1.016" layer="21" font="vector" ratio="15" rot="R180">VOUT</text>
+<text x="17.6784" y="9.387840625" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">VOUT</text>
+<text x="18.6182" y="6.860540625" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">GND</text>
 <text x="13.4366" y="-14.0208" size="1.778" layer="51" font="vector">Eric Orosel</text>
 <text x="7.62" y="10.16" size="0.8128" layer="21" font="vector" ratio="15">IP+</text>
 <text x="14.7828" y="6.4008" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">80kHz</text>
@@ -1636,16 +1636,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="Testing">
+<library name="SparkFun-Hardware">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="STAND-OFF-TIGHTER">
+<package name="STAND-OFF-TIGHT">
+<description>&lt;h3&gt;Standoff (#4 Screw) - Tight fit around screw body&lt;/h3&gt;
+&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
+&lt;h4&gt;Devices Using&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
 <wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
 <wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
 <wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
 <wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
 <circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
-<hole x="0" y="0" drill="2.794"/>
-<circle x="0" y="0" radius="0.762" width="0.127" layer="200"/>
+<hole x="0" y="0" drill="3.048"/>
+<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.651" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -1852,7 +1870,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J1" library="SparkFun-Connectors" package="1X03" value="455-1750-1-ND" x="22.86" y="11.43" rot="R270">
 <attribute name="PROD_ID" value="XXX-00000" x="22.86" y="11.43" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="JP3" library="Testing" package="STAND-OFF-TIGHTER" value="STAND-OFFTIGHTER_(0.11_INCH_DIA)" x="21.59" y="2.54"/>
+<element name="JP3" library="SparkFun-Hardware" package="STAND-OFF-TIGHT" value="STAND-OFFTIGHT" x="21.59" y="2.54"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="9.017" y="11.684"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="18.7325" y="0.254" rot="MR0"/>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="12.7" y="12.1285" rot="MR0"/>
