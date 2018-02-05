@@ -22224,16 +22224,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="170.18" y="11.43" size="2.54" layer="94">Pete Dokter</text>
 <text x="236.982" y="7.366" size="2.54" layer="94">v10</text>
 <text x="175.26" y="6.604" size="2.54" layer="94">Eric Orosel</text>
-<text x="11.43" y="58.42" size="2.54" layer="97">-Current Range: +/-5A</text>
-<text x="11.43" y="62.23" size="2.54" layer="97">-VCC: 4.5V-5.5V</text>
+<text x="11.43" y="58.42" size="2.54" layer="97">Current Range: +/-5A</text>
+<text x="11.43" y="62.23" size="2.54" layer="97">VCC: 4.5V-5.5V</text>
 <text x="166.116" y="86.106" size="2.54" layer="97">JP1 (Sets bandwidth):</text>
 <text x="166.116" y="78.486" size="2.54" layer="97">CLOSED = 80kHz</text>
 <text x="166.116" y="82.296" size="2.54" layer="97">OPEN = 20kHz Low Noise (default)</text>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="185.42" width="0.2032" layer="97" style="shortdash"/>
 <text x="2.286" y="180.34" size="2.54" layer="97">ACS723LLCTR-05AB-T2</text>
 <text x="149.606" y="180.34" size="2.54" layer="97">Bandwidth Select</text>
-<text x="11.43" y="54.61" size="2.54" layer="97">-Zero Current Output Voltage = VCC x 0.5</text>
-<text x="11.43" y="50.8" size="2.54" layer="97">-Sensitivity (-5A(min) &lt; Current Sensed &lt; 5A(max)) = 400mV/A</text>
+<text x="11.43" y="54.61" size="2.54" layer="97">Zero Current Output Voltage = VCC x 0.5</text>
+<text x="11.43" y="50.8" size="2.54" layer="97">Sensitivity (-5A(min) &lt; Current Sensed &lt; 5A(max)) = 400mV/A</text>
 <text x="11.43" y="66.04" size="2.54" layer="97">NOTES:</text>
 </plain>
 <instances>
