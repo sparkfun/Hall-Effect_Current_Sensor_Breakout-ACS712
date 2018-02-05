@@ -126,11 +126,6 @@
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="227" name="LAYER_2" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="LAYER_3" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="LAYER_4" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="LAYER_5" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="LAYER_6" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
