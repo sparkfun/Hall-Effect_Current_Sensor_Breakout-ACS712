@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -160,14 +160,14 @@
 <wire x1="0" y1="15.24" x2="24.13" y2="15.24" width="0.2032" layer="20"/>
 <wire x1="24.13" y1="15.24" x2="24.13" y2="0" width="0.2032" layer="20"/>
 <wire x1="24.13" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
-<text x="21.463" y="11.811" size="1.016" layer="21" font="vector" ratio="15" rot="R180">VCC</text>
-<text x="21.463" y="6.731" size="1.016" layer="21" font="vector" ratio="15" rot="R180">GND</text>
+<text x="21.6281" y="11.938" size="1.016" layer="21" font="vector" ratio="15" rot="R180">VCC</text>
+<text x="21.6281" y="6.858" size="1.016" layer="21" font="vector" ratio="15" rot="R180">GND</text>
 <text x="9.3853" y="1.7018" size="1.27" layer="21" font="vector" ratio="15">ACS723</text>
 <text x="21.5773" y="13.6271" size="0.8128" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
 <dimension x1="0" y1="19.05" x2="24.13" y2="19.05" x3="12.065" y3="20.32" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
 <text x="13.9446" y="-11.4808" size="1.778" layer="51" font="vector">Pete Dokter</text>
 <text x="18.6182" y="11.940540625" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">VCC</text>
-<text x="21.463" y="9.271" size="1.016" layer="21" font="vector" ratio="15" rot="R180">VOUT</text>
+<text x="21.6281" y="9.3853" size="1.016" layer="21" font="vector" ratio="15" rot="R180">VOUT</text>
 <text x="17.6784" y="9.387840625" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">VOUT</text>
 <text x="18.6182" y="6.860540625" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">GND</text>
 <text x="13.4366" y="-14.0208" size="1.778" layer="51" font="vector">Eric Orosel</text>
@@ -178,18 +178,8 @@
 <dimension x1="3.81" y1="11.43" x2="3.81" y2="3.81" x3="-1.27" y3="7.62" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="3.81" y1="11.43" x2="0" y2="11.43" x3="1.905" y3="16.51" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="21.59" y1="2.54" x2="21.59" y2="0" x3="27.94" y3="1.27" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<text x="12.8143" y="7.7597" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">80kHz</text>
-<text x="12.8143" y="6.5659" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">20kHz</text>
-<wire x1="14.0335" y1="7.5692" x2="9.144" y2="7.5692" width="0.1524" layer="22"/>
-<wire x1="13.8303" y1="6.6675" x2="13.8303" y2="7.3025" width="0.127" layer="22"/>
-<wire x1="13.8303" y1="7.3025" x2="13.1953" y2="7.3025" width="0.127" layer="22"/>
-<wire x1="13.1953" y1="7.3025" x2="13.1953" y2="6.6675" width="0.127" layer="22"/>
-<wire x1="13.1953" y1="6.6675" x2="13.8303" y2="6.6675" width="0.127" layer="22"/>
-<wire x1="13.8303" y1="7.8359" x2="13.8303" y2="8.4709" width="0.127" layer="22"/>
-<wire x1="13.8303" y1="8.4709" x2="13.1953" y2="8.4709" width="0.127" layer="22"/>
-<wire x1="13.1953" y1="8.4709" x2="13.1953" y2="7.8359" width="0.127" layer="22"/>
-<wire x1="13.1953" y1="7.8359" x2="13.8303" y2="7.8359" width="0.127" layer="22"/>
-<rectangle x1="13.2334" y1="7.874" x2="13.7922" y2="8.4328" layer="22" rot="R180"/>
+<dimension x1="21.59" y1="2.54" x2="0" y2="0" x3="10.795" y3="-2.54" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<text x="14.4272" y="7.2136" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">BW_SEL</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -1874,7 +1864,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="9.017" y="11.684"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="18.7325" y="0.254" rot="MR0"/>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="12.7" y="12.1285" rot="MR0"/>
-<element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="JUMPER-SMT_2_NO_SILK" x="15.24" y="7.62" rot="MR180"/>
+<element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="JUMPER-SMT_2_NO_SILK" x="15.7607" y="7.62" rot="MR180"/>
 </elements>
 <signals>
 <signal name="IP+">
@@ -1975,9 +1965,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="13.97" y="14.097" extent="1-16" drill="0.508"/>
 <wire x1="13.97" y1="14.097" x2="13.97" y2="12.612" width="0.3048" layer="1"/>
 <wire x1="13.97" y1="12.612" x2="14.009" y2="12.573" width="0.3048" layer="1"/>
-<wire x1="17.018" y1="7.62" x2="18.415" y2="7.62" width="0.3048" layer="16"/>
-<wire x1="17.018" y1="7.62" x2="17.018" y2="13.081" width="0.3048" layer="16"/>
-<wire x1="15.6464" y1="7.62" x2="17.018" y2="7.62" width="0.3048" layer="16"/>
+<wire x1="17.018" y1="13.081" x2="17.018" y2="7.747" width="0.3048" layer="16"/>
+<wire x1="16.1671" y1="7.62" x2="17.145" y2="7.62" width="0.3048" layer="16"/>
+<wire x1="17.145" y1="7.62" x2="18.415" y2="7.62" width="0.3048" layer="16"/>
+<wire x1="17.018" y1="7.747" x2="17.145" y2="7.62" width="0.3048" layer="16"/>
 </signal>
 </signals>
 <errors>
