@@ -11,6 +11,13 @@ Repository Contents
 -------------------
 * **/Hardware** - All Eagle design files (.brd, .sch)
 
+Documentation
+--------------
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/acs712-low-current-sensor-hookup-guide)** - Basic hookup guide for the ACS712 Current Sensor Breakout.
+
+Version History
+---------------
+* [V1.1](https://github.com/sparkfun/Hall-Effect_Current_Sensor_Breakout-ACS712/tags) - Initial release 
 
 License Information
 -------------------
