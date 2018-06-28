@@ -1,3 +1,7 @@
+**Retired Product**
+======================================================
+This is a retired product. There is an updated version available: [SEN-13679](https://github.com/sparkfun/Current_Sensor_Breakout-ACS723)
+
 SparkFun Hall-Effect Current Sensor Breakout - ACS712
 =====================================================
 ![SparkFun Hall-Effect Current Sensor Breakout - ACS712](https://cdn.sparkfun.com//assets/parts/2/1/5/2/08882-01.jpg)
