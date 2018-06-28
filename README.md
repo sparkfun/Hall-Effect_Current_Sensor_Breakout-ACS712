@@ -26,6 +26,11 @@ Version History
 ---------------
 * [V1.1](https://github.com/sparkfun/Hall-Effect_Current_Sensor_Breakout-ACS712/tags) - Initial release 
 
+Product Versions
+----------------
+
+* [SEN-08882 (RETIRED)](https://github.com/sparkfun/Hall-Effect_Current_Sensor_Breakout-ACS712)- Initial release; ACS712 Version of this Board
+
 License Information
 -------------------
 
